@@ -81,10 +81,10 @@ button:hover {
 
 .screen {
     position: absolute;
-    width: 1060px;
-    height: 770px;
+    width: 70%;
+    height: 100%;
     top: 40px;
-    left: 220px;
+    left: 15%;
     overflow: hidden;
     opacity: 0;
     animation: fadeIn 1s forwards;
