@@ -1,0 +1,131 @@
+body {
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: contain;
+    background-attachment: fixed;
+    background-color: black;
+    height: 100%;
+    overflow-y: auto;
+    min-height: 100vh;
+    flex-direction: column;
+    display: flex;
+}
+
+header {
+    color: aliceblue;
+    text-align: center;
+}
+
+main {
+    flex: 1;
+}
+
+.navbar__container {
+    color: blueviolet;
+    text-align: center;
+}
+
+footer {
+    clear: both;
+    background-image: url(./images/element5.jpg);
+    position: relative;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#flatscreen {
+    width: 100vw;
+    height: 100vh;
+    object-fit: contain;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    color: transparent;
+    padding: 15px 200px;
+    text-align: center;
+    font-size: 48px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    color: black;
+    background-color: grey;
+}
+
+.screenImg {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    object-fit: contain;
+    width: 100%;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+    animation-delay: 2s;
+}
+
+.screenImgBottom {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    object-fit: contain;
+    width: 100%;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+    animation-delay: 2s;
+}
+
+.screen {
+    position: absolute;
+    width: 1060px;
+    height: 770px;
+    top: 40px;
+    left: 220px;
+    overflow: hidden;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+    animation-delay: 2s;
+}
+
+.element1 {
+    position: absolute;
+    width: 280px;
+    height: 280px;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+    animation-delay: 2s;
+}
+
+.element2 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+    animation-delay: 2s;
+}
+
+.element3 {
+    position: absolute;
+    width: 370px;
+    height: 370px;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+    animation-delay: 2s;
+}
+
+@keyframes fadeIn {
+    to { opacity: 1; }
+}
