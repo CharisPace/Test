@@ -77,8 +77,8 @@ function update() {
         sessionStorage.setItem("el2_curr_tier", "1");
         sessionStorage.setItem("el3_curr_tier", "1");
         sessionStorage.setItem("el1_curr_img", "./images/Webpage Background 1.jpg");
-        sessionStorage.setItem("el2_curr_img", "./images/Webpage Background 1 (5).jpg");
-        sessionStorage.setItem("el3_curr_img", "./images/Webpage Background 1 (6).jpg");
+        sessionStorage.setItem("el2_curr_img", "./images/geometric pattern drawing.png");
+        sessionStorage.setItem("el3_curr_img", "./images/distorted organic drawing - black background.png");
     } 
     document.getElementById("GIF1").hidden = !(sessionStorage.getItem("tier1") === 'true');
     document.getElementById("GIF2").hidden = !(sessionStorage.getItem("tier2") === 'true');
