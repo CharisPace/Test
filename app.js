@@ -43,7 +43,7 @@ const tier3_images = [
 
 function checkFor404(ind) {
   let val = getRandomInt(0, 10);
-  if (val < 2) { // may need to lower the probability
+  if (val < 1) { // may need to lower the probability
     window.location.href = "404.html";
   } else {
     window.location.href = sites[ind];
