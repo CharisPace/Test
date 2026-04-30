@@ -106,7 +106,7 @@ function changeElements() {
             if (sessionStorage.getItem("el1_develop") === 'true' && sessionStorage.getItem("el1_curr_tier") === '1') {
                 sessionStorage.setItem("el1_curr_tier", "2");
                 sessionStorage.setItem("el1_curr_img", tier2_images[getRandomInt(0, 4)]);
-            } else {
+            } else if (sessionStorage.getItem("el1_curr_tier") === '1') {
                 sessionStorage.setItem("el1_curr_img", tier1_images[getRandomInt(0, 2)]);
             }
             sessionStorage.setItem("el1_change", "false");
@@ -117,7 +117,7 @@ function changeElements() {
             if (sessionStorage.getItem("el2_develop") === 'true' && sessionStorage.getItem("el2_curr_tier") === '1') {
                 sessionStorage.setItem("el2_curr_tier", "2");
                 sessionStorage.setItem("el2_curr_img", tier2_images[getRandomInt(0, 4)]);
-            } else {
+            } else if (sessionStorage.getItem("el2_curr_tier") === '1') {
                 sessionStorage.setItem("el2_curr_img", tier1_images[getRandomInt(0, 2)]);
             }
             sessionStorage.setItem("el2_change", "false");
@@ -128,7 +128,7 @@ function changeElements() {
             if (sessionStorage.getItem("el3_develop") === 'true' && sessionStorage.getItem("el3_curr_tier") === '1') {
                 sessionStorage.setItem("el3_curr_tier", "2");
                 sessionStorage.setItem("el3_curr_img", tier2_images[getRandomInt(0, 4)]);
-            } else {
+            } else if (sessionStorage.getItem("el3_curr_tier") === '1') {
                 sessionStorage.setItem("el3_curr_img", tier1_images[getRandomInt(0, 2)]);
             }
             sessionStorage.setItem("el3_change", "false");
@@ -141,7 +141,7 @@ function changeElements() {
             if (sessionStorage.getItem("el1_develop") === 'true' && sessionStorage.getItem("el1_curr_tier") === '2') {
                 sessionStorage.setItem("el1_curr_tier", "3");
                 sessionStorage.setItem("el1_curr_img", tier3_images[getRandomInt(0, 6)]);
-            } else {
+            } else if (sessionStorage.getItem("el1_curr_tier") === '2') {
                 sessionStorage.setItem("el1_curr_img", tier2_images[getRandomInt(0, 4)]);
             }
             sessionStorage.setItem("el1_change", "false");
@@ -152,7 +152,7 @@ function changeElements() {
             if (sessionStorage.getItem("el2_develop") === 'true' && sessionStorage.getItem("el2_curr_tier") === '2') {
                 sessionStorage.setItem("el2_curr_tier", "3");
                 sessionStorage.setItem("el2_curr_img", tier3_images[getRandomInt(0, 6)]);
-            } else {
+            } else if (sessionStorage.getItem("el2_curr_tier") === '2') {
                 sessionStorage.setItem("el2_curr_img", tier2_images[getRandomInt(0, 4)]);
             }
             sessionStorage.setItem("el2_change", "false");
@@ -163,7 +163,7 @@ function changeElements() {
             if (sessionStorage.getItem("el3_develop") === 'true' && sessionStorage.getItem("el3_curr_tier") === '2') {
                 sessionStorage.setItem("el3_curr_tier", "3");
                 sessionStorage.setItem("el3_curr_img", tier3_images[getRandomInt(0, 6)]);
-            } else {
+            } else if (sessionStorage.getItem("el3_curr_tier") === '2') {
                 sessionStorage.setItem("el3_curr_img", tier2_images[getRandomInt(0, 4)]);
             }
             sessionStorage.setItem("el3_change", "false");
