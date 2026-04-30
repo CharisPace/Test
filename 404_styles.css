@@ -1,0 +1,33 @@
+body {
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(./images/Fake\ Error\ 404\ Page\ \(1\).jpg);
+    height: 100%;
+    width: 100%;
+    overflow-y: auto;
+    flex-direction: column;
+    display: flex;
+}
+
+header {
+    color: aliceblue;
+    text-align: center;
+}
+
+main {
+    flex: 1;
+}
+
+.navbar__container {
+    color: blueviolet;
+    text-align: center;
+}
+
+footer {
+    clear: both;
+    background-color:grey;
+    position: relative;
+    height: 100px;
+}

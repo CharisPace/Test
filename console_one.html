@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Console</title>
+    <link rel="stylesheet" href="console_styles.css">
+    <script src="app.js" defer></script>
+</head>
+<body onload="chooseText()">
+    <header>Console</header>
+    <audio autoplay>
+        <source src="./images/bbc_electronic_07076017.mp3" type="audio/mpeg"/>
+        your browser does not support audio component
+    </audio>
+    <main>
+        <video autoplay muted id="console">
+            <source src="./images/ZoomMonitor.mp4" type="video/mp4"/>
+        </video>
+        <div class="screen">
+            <div>
+            <p>
+                <a href="" onclick="changeImg(1)" id="changer1">TEXT</a>
+            </p>
+            <p>
+                <a href="" onclick="changeImg(2)" id="changer2">TEXT</a>
+            </p>
+            <p>
+                <a href="" onclick="changeImg(3)" id="changer3">TEXT</a>
+            </p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <button href="#" onclick="checkFor404(2)">Return to Viewport</button>
+    </footer>
+</body>
+</html>
