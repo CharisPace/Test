@@ -19,8 +19,8 @@ const text = [
 
 const tier1_images = [
     "./images/Webpage Background 1.jpg",
-    "./images/Webpage Background 1 (5).jpg",
-    "./images/Webpage Background 1 (6).jpg"
+    "./images/geometric pattern drawing.png",
+    "./images/distorted organic drawing - black background.png"
 ]
 
 const tier2_images = [
